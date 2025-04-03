@@ -30,13 +30,13 @@ var KhoangCachTrenDuoi
 
 // đóm với toạ độ trục x y
 var firefly = {
-    x: MainBGR.width/6,
+    x: MainBGR.width/4,
     y:MainBGR.height/2,
 
     velocity: 0, // Vận tốc rơi
-    gravity: 0.3, // trọng lực (sẽ được tăng dần và gán ngược cho velocity tạo hiệu ứng kéo xuống)
+    gravity: 0.2, // trọng lực (sẽ được tăng dần và gán ngược cho velocity tạo hiệu ứng kéo xuống)
     lift: -6, // Lực nhảy lên (phải lớn hơn tốc độ rơi tối đa và trừ thẳng vào velocity để tạo hiệu ứng bay lên)
-    maxVelocity: 4 // Giới hạn tốc độ rơi tối đa (velocity không được vượt quá giới hạn này)
+    maxVelocity: 3 // Giới hạn tốc độ rơi tối đa (velocity không được vượt quá giới hạn này)
 }
 
 // mảng các ống di chuyển
